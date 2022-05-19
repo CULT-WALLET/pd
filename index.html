@@ -104,7 +104,10 @@
                         <div class="hero-content-wrapper">
                             <h1 class="text-white wow fadeInDown" data-wow-delay=".2s">CULT WALLET</h1>
                             <p class="text-white wow fadeInLeft"  data-wow-delay=".4s">keep your crypto on your own safe place</p>
-                            <a href="#" class="theme-btn wow fadeInUp"  data-wow-delay=".6s">Join Now</a>
+                            <a href="#" class="theme-btn wow fadeInUp"  data-wow-delay=".6s" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Join Now</a>
+                            <!-- <button type="button" class="btn btn-primary theme-btn wow fadeInUp" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                Launch static backdrop modal
+                            </button> -->
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-5">
@@ -135,7 +138,7 @@
                         <div class="col-xl-4 col-lg-4 col-md-6">
                             <div class="single-feature text-center mb-30 wow fadeInUp" data-wow-delay=".2s">
                                 <div class="feature-img mb-20">
-                                    <img src="assets/img/feature-1.svg" alt="">
+                                    <img src="assets/img/register.png" alt="" class="img-fluid">
                                 </div>
                                 <div class="feature-content">
                                     <h5>No Need to Register</h5>
@@ -146,7 +149,7 @@
                         <div class="col-xl-4 col-lg-4 col-md-6">
                             <div class="single-feature text-center mb-30 wow fadeInUp" data-wow-delay=".4s">
                                 <div class="feature-img mb-25">
-                                    <img src="assets/img/feature-2.svg" alt="">
+                                    <img src="assets/img/safe.png" alt="" class="img-fluid">
                                 </div>
                                 <div class="feature-content">
                                     <h5>Why keep in safe place?</h5>
@@ -157,7 +160,7 @@
                         <div class="col-xl-4 col-lg-4 col-md-6">
                             <div class="single-feature text-center mb-30 wow fadeInUp" data-wow-delay=".6s">
                                 <div class="feature-img mb-20">
-                                    <img src="assets/img/feature-3.svg" alt="">
+                                    <img src="assets/img/user.png" alt="" class="img-fluid">
                                 </div>
                                 <div class="feature-content">
                                     <h5>Who can join? </h5>
@@ -177,7 +180,7 @@
                 <div class="row align-items-center">
                     <div class="col-xl-6 col-lg-6">
                         <div class="about-img mb-30">
-                            <img src="assets/img/about-img.svg" alt="image" class=" wow fadeInLeft" data-wow-delay=".4s">
+                            <img src="assets/img/cult-wallet.png" alt="image" class="img-fluid wow fadeInLeft" data-wow-delay=".4s">
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6">
@@ -215,8 +218,9 @@
         <!-- ========================= roadmap-section start ========================= -->
         <section id="roadmap" class="roadmap-section pt-100 pb-70 img-bg">
             <div class="container">
+                <h2 class="text-center my-3">ROADMAP</h2>
                 <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start bg-primary text-white">
+                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start"> <!-- bg-dark text-white -->
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-1">Q1</h5>
                             <small>50%</small>
@@ -224,7 +228,7 @@
                         <p class="mb-1">Safe Wallet</p>
                         <small>contain payment tokens & NFTs</small>
                     </a>
-                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start bg-dark text-white">
+                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-1">Q2</h5>
                             <small>10%</small>
@@ -232,7 +236,7 @@
                         <p class="mb-1">NFT Gallery</p>
                         <small>useres can make a showcase/gallery for own NFTs</small>
                     </a>
-                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start bg-dark text-white">
+                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-1">Q3</h5>
                             <small>10%</small>
@@ -240,7 +244,7 @@
                         <p class="mb-1">NFT Own Marketplace</p>
                         <small>by using gallery, can easily trade (sell) own NFTs</small>
                     </a>
-                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start bg-dark text-white">
+                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-1">Q4</h5>
                             <small>10%</small>
@@ -433,6 +437,25 @@
         </footer>
         <!-- ========================= footer end ========================= -->
 
+
+        <!-- Scrollable modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+              </div>
+            </div>
+        </div>
 
         <!-- ========================= scroll-top ========================= -->
         <a href="#" class="scroll-top">
